@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing Weather Between Cities</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <label for="city1">Select City 1:</label>
+    <select id="city1">
+        <option value="CLT">Charlotte, NC (CLT)</option>
+        <option value="CQT">Los Angeles, CA (CQT)</option>
+        <option value="IND">Indianapolis, IN (IND)</option>
+        <option value="JAX">Jacksonville, FL (JAX)</option>
+        <option value="MDW">Chicago, IL (MDW)</option>
+        <option value="PHL">Philadelphia, PA (PHL)</option>
+        <option value="PHX">Phoenix, AZ (PHX)</option>
+    </select>
+    <label for="city2">Select City 2:</label>
+    <select id="city2">
+        <option value="CLT">Charlotte, NC (CLT)</option>
+        <option value="CQT" selected>Los Angeles, CA (CQT)</option>
+        <option value="IND">Indianapolis, IN (IND)</option>
+        <option value="JAX">Jacksonville, FL (JAX)</option>
+        <option value="MDW">Chicago, IL (MDW)</option>
+        <option value="PHL">Philadelphia, PA (PHL)</option>
+        <option value="PHX">Phoenix, AZ (PHX)</option>
+    </select>
+    <button id="compareButton">Compare</button>
+    <div id="visualization"></div>
+    <script src="main.js"></script>
+</body>
+</html>
