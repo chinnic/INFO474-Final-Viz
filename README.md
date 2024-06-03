@@ -21,4 +21,5 @@ There is a legend on the top right corner that helps differentiate between the t
   - Using the visualization, we can select both Jacksonville, FL (JAX) and Phoenix, AZ (PHX). Viewing the lines, we can tell that both cities have similar high temperature trends, and they do not fluctuate much, keeping both cities a qualified choice for the homebuyer. However, by viewing the bars, we can also see that JAX has trends of a lot more average precipitation over the year over PHX, making PHX the better choice for this homebuyer who wants minimal rain.
  
 <h3>Screenshot:</h3>
+
 ![user interface](finalScreenshot.png)
